@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Narcotics Tracker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="login">
+        <h1>Narcotics Tracker</h1>
+        <center>
+            <div class="urn">
+                <h3>URN ID </h3>
+                <form onsubmit="validate()" action="page2.html">
+                    <input type="text" id="urnid" placeholder="Enter URN id" required>
+                    
+                    <button class="two" type="submit">Submit</button>
+                </form>
+            </div>
+        </center>
+    </div>
+</body>
+</html>
